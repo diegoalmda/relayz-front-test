@@ -1,7 +1,7 @@
 function createURLRegex() {
   // Regex components
   const protocol = '(https?:\\/\\/)?' // Matches 'http://' or 'https://'
-  const domain = '(www\\.)?[a-zA-Z0-9\\-]+(\\.[a-zA-Z]{2,})' // Matches domain names (e.g., www.example.com)
+  const domain = '(www\\.)?([a-zA-Z0-9\\-]+\\.)+[a-zA-Z]{2,}' // Matches domain names (e.g., www.example.com)
   const port = '(:\\d+)?' // Matches optional port number (e.g., :8080)
   const path = '(\\/[a-zA-Z0-9_\\-\\./]*)?' // Matches optional path (e.g., /page or /path/to/file)
   const query = '(\\?[a-zA-Z0-9_\\-=&]*)?' // Matches optional query string (e.g., ?param=value&param2=value2)

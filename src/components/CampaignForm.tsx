@@ -18,9 +18,14 @@ const createCampaignFormSchema = z.object({
     .refine((name) => {
       return name !== ''
     }, 'Campaign Name cannot be empty.'),
-  url: z.string().refine((value) => urlValidator.test(value), {
-    message: 'Invalid URL',
-  }),
+  url: z.optional(z.string()).refine(
+    (value) => {
+      return !value || urlValidator.test(value)
+    },
+    {
+      message: 'Invalid URL.',
+    }
+  ),
   startDate: z
     .string()
     .nonempty('Start date is required')
