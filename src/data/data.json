@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "owner": "supernode.testnet",
+    "downloadSpeed": "1000 Mbps",
+    "uploadSpeed": "470 Mbps",
+    "rating": 0,
+    "traffic": 0,
+    "state": "Active"
+  },
+  {
+    "id": 2,
+    "owner": "example.node",
+    "downloadSpeed": "800 Mbps",
+    "uploadSpeed": "350 Mbps",
+    "rating": 4.5,
+    "traffic": 256,
+    "state": "Active"
+  },
+  {
+    "id": 3,
+    "owner": "react.node",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 4,
+    "owner": "react.node04",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 5,
+    "owner": "react.node05",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 6,
+    "owner": "react.node06",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 7,
+    "owner": "react.node07",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 8,
+    "owner": "react.node08",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 9,
+    "owner": "react.node09",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 10,
+    "owner": "react.node10",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 11,
+    "owner": "react.node11",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  },
+  {
+    "id": 12,
+    "owner": "react.node12",
+    "downloadSpeed": "1200 Mbps",
+    "uploadSpeed": "600 Mbps",
+    "rating": 5,
+    "traffic": 512,
+    "state": "Active"
+  }
+]
