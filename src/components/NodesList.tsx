@@ -15,7 +15,7 @@ export default async function NodesList() {
         >
           <div className="bg-gray-500 rounded-t-md py-4 flex justify-center">
             <span className="font-bold">Owner: &nbsp;</span>
-            <span>{item.owner}</span>
+            <span className="font-semibold">{item.owner}</span>
           </div>
           <div className="p-4">
             <p>

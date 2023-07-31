@@ -70,41 +70,5 @@
     "rating": 5,
     "traffic": 512,
     "state": "Active"
-  },
-  {
-    "id": 9,
-    "owner": "react.node09",
-    "downloadSpeed": "1200 Mbps",
-    "uploadSpeed": "600 Mbps",
-    "rating": 5,
-    "traffic": 512,
-    "state": "Active"
-  },
-  {
-    "id": 10,
-    "owner": "react.node10",
-    "downloadSpeed": "1200 Mbps",
-    "uploadSpeed": "600 Mbps",
-    "rating": 5,
-    "traffic": 512,
-    "state": "Active"
-  },
-  {
-    "id": 11,
-    "owner": "react.node11",
-    "downloadSpeed": "1200 Mbps",
-    "uploadSpeed": "600 Mbps",
-    "rating": 5,
-    "traffic": 512,
-    "state": "Active"
-  },
-  {
-    "id": 12,
-    "owner": "react.node12",
-    "downloadSpeed": "1200 Mbps",
-    "uploadSpeed": "600 Mbps",
-    "rating": 5,
-    "traffic": 512,
-    "state": "Active"
   }
 ]
