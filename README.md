@@ -8,7 +8,7 @@ Página Campaign: Traz o formulário de criação de campanhas, onde são feitas
 
 ## Rodando o projeto
 
-Precisa instalar as dependências do projeto e depois rodar o servidor de desenvolvimento:
+Após clonado o repositório, precisa entrar na pasta do projeto, instalar as dependências e rodar o servidor de desenvolvimento:
 
 ```bash
 npm install
