@@ -18,13 +18,18 @@ export default function NodesContent() {
     setNodes(data.data)
   }, [])
 
-  const handleSelectNode = useCallback((node: IRelayzNode) => {
-    setSelectedNode(node)
-    window.scroll({
-      top: 0,
-      behavior: 'smooth',
-    })
-  }, [])
+  const handleSelectNode = useCallback(
+    (node: IRelayzNode) => {
+      if (selectedNode?.id !== node.id) {
+        setSelectedNode(node)
+      }
+      window.scroll({
+        top: 0,
+        behavior: 'smooth',
+      })
+    },
+    [selectedNode?.id]
+  )
 
   useEffect(() => {
     if (nodes.length === 0) {
