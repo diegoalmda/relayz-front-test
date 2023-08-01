@@ -45,6 +45,15 @@ module.exports = {
           900: '#025929',
         },
       },
+      keyframes: {
+        expand: {
+          '0%': { width: '0', height: '0' },
+          '100%': { width: '80%', height: '100%' },
+        },
+      },
+      animation: {
+        expand: 'expand 1s ease-in-out',
+      },
     },
   },
   plugins: [],

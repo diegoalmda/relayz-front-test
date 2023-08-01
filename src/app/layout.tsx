@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-900 text-gray-100`}>
-        <aside className="bg-gray-700">
+        <aside className="bg-gray-700 fixed top-0 w-full drop-shadow-md z-10">
           <PageMenu />
         </aside>
-        <main className="max-w-[1200px] m-auto">{children}</main>
+        <main className="max-w-[1200px] m-auto mt-20">{children}</main>
       </body>
     </html>
   )

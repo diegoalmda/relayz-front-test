@@ -8,7 +8,7 @@ export function PageMenu() {
 
   return (
     <ul className="max-w-[1200px] m-auto flex flex-row gap-4 p-4">
-      <li className="flex flex-col">
+      <li className="flex flex-col hover:text-white">
         <Link href="/">Home</Link>
         <span
           className={
@@ -16,7 +16,7 @@ export function PageMenu() {
           }
         ></span>
       </li>
-      <li className="flex flex-col">
+      <li className="flex flex-col hover:text-white">
         <Link href="/form" className="">
           Campaign
         </Link>

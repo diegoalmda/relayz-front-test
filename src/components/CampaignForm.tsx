@@ -69,6 +69,7 @@ export function CampaignForm() {
     <form
       onSubmit={handleSubmit(submitCampaign)}
       className="w-[60%] max-md:w-[70%] max-sm:w-[90%] max-sm:text-sm"
+      autoComplete="off"
     >
       <div className="flex flex-col">
         <label htmlFor="campaignName">
@@ -80,7 +81,7 @@ export function CampaignForm() {
           }`}
           type="text"
           id="campaignName"
-          placeholder="Insert campaign name."
+          placeholder="Enter campaign name."
           {...register('campaignName')}
         />
         <div className="h-7 flex justify-start">
@@ -154,7 +155,7 @@ export function CampaignForm() {
           }`}
           type="text"
           id="wallet"
-          placeholder="Insert wallet code."
+          placeholder="Enter wallet code."
           {...register('wallet')}
         />
         <div className="h-7 flex justify-start">
